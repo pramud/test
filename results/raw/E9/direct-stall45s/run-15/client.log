@@ -1,0 +1,11 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=42305 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+1790748158.933691 3181424493862 [main] client args {url=ws://127.0.0.1:28974/stream, dir=/home/user/test/results/raw/E9/direct-stall45s/run-15, timeout-ms=125242, bytes=262144, sink-rate=50000, heartbeat-interval-ms=20000, complete-callback=false, p1-fraction=0.1, heartbeat=off, recv-buffer=8192, stall-at=65536, stall-ms=45000}
+1790748162.060469 3184551210918 [WebSocket@1918627686-16] onWebSocketOpen local=/127.0.0.1:36606 remote=/127.0.0.1:28974
+1790748162.094178 3184584917036 [WebSocket@1918627686-16] delivered msg=1 bytes=512 firstGap=-1
+1790748163.398072 3185888813360 [WebSocket@1918627686-16] sink stall 45000 ms at 65536 bytes
+1790748209.706931 3232197672918 [WebSocket@1918627686-16] delivered msg=256 bytes=131072 firstGap=-1
+1790748212.329298 3234820039261 [WebSocket@1918627686-16] delivered msg=512 bytes=262144 firstGap=-1
+1790748212.340091 3234830835546 [WebSocket@1918627686-16] delivered msg=513 bytes=262148 firstGap=-1
+1790748212.345029 3234835770236 [WebSocket@1918627686-16] onWebSocketClose code=1000 reason=Normal closure delivered=262148/262148 firstGap=-1
+[main] INFO org.eclipse.jetty.websocket.client.WebSocketClient - Shutdown WebSocketClient@61e0cabd[coreClient=oejwcc.WebSocketCoreClient@49b0b76{STARTED},openSessions.size=0]
+1790748212.860647 3235351390157 [main] client exit 0

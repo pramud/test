@@ -1,0 +1,5 @@
+  0.481656 client<->server client             PING frame
+ 19.706711 client<->server server             Close(1000) frame
+ 19.706711 client<->server server             FIN (+3868 payload bytes)
+ 21.368575 client<->server client             Close frame (masked, from client side)
+ 21.368965 client<->server client             FIN (+0 payload bytes)

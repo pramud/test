@@ -1,0 +1,3 @@
+server: /usr/lib/jvm/java-17-openjdk-amd64/bin/java -jar /home/user/test/server/target/server.jar --port=28679 --dir=/home/user/test/results/raw/E7/E4-srvDefaultBufs/run-14 --input-buffer=15m --output-buffer=15m --last-per-chunk=true --complete-callback=false --input-buffer=default --output-buffer=default
+client: /usr/lib/jvm/java-17-openjdk-amd64/bin/java -jar /home/user/test/client/target/client.jar --url=ws://127.0.0.1:28680/stream --dir=/home/user/test/results/raw/E7/E4-srvDefaultBufs/run-14 --timeout-ms=140971 --bytes=1048576 --sink-rate=50000 --heartbeat-interval-ms=20000 --complete-callback=false --p1-fraction=0.1 --heartbeat=on
+nginx: lingering=off port 28680

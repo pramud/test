@@ -1,0 +1,9 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=42305 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+1790748986.024336 4008515133255 [main] client args {url=ws://127.0.0.1:29278/stream, dir=/home/user/test/results/raw/E10/nginx-P2-srvFragmented/run-18, timeout-ms=140971, bytes=1048576, sink-rate=50000, heartbeat-interval-ms=20000, complete-callback=false, p1-fraction=0.1, heartbeat=forced, ping-phase=P2}
+1790748986.791497 4009282240111 [WebSocket@1918627686-17] onWebSocketOpen local=/127.0.0.1:48242 remote=/127.0.0.1:29278
+1790748987.277089 4009767828769 [heartbeat] PING #1 send (forced P2) delivered=0
+1790748987.282122 4009772864045 [heartbeat] PING #1 sent
+1790748987.303381 4009794120966 [WebSocket@1918627686-13] delivered msg=1 bytes=1048580 firstGap=-1
+1790749008.280363 4030771103617 [WebSocket@1918627686-13] onWebSocketClose code=1000 reason=Normal closure delivered=1048580/1048580 firstGap=-1
+[main] INFO org.eclipse.jetty.websocket.client.WebSocketClient - Shutdown WebSocketClient@ef232b52[coreClient=oejwcc.WebSocketCoreClient@49b0b76{STARTED},openSessions.size=0]
+1790749008.793853 4031284596399 [main] client exit 0

@@ -1,0 +1,161 @@
+experiment,variant,run,bytesExpected,bytesDelivered,firstGapOffset,clientCloseCode,clientException,serverCloseCode,serverError,rstSeen,rstSender,durationMs,complete,pingsSent,pingPhase,pingResults,serverSendTimeouts,serverCloseCallback,clientLegDownBytes,rstDetail,notes
+E8,upload-in15MiB-srvCbDone,1,5242880,5242880,65544,1000,,1000,,false,,2620,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=67527; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,2,5242880,5242880,65544,1000,,1000,,false,,2759,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=3; server.mismatchedBytes=117173; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,3,5242880,5242880,65544,1000,,1000,,false,,2570,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=87447; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbDone,4,5242880,5242880,65544,1000,,1000,,false,,1536,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=4; server.mismatchedBytes=146892; server.heapUsedMiB=22
+E8,upload-in15MiB-srvCbDone,5,5242880,5242880,65544,1000,,1000,,false,,2004,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=88343; server.heapUsedMiB=22
+E8,upload-in15MiB-srvCbDone,6,5242880,5242880,65544,1000,,1000,,false,,3058,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=63285; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbDone,7,5242880,5242880,65544,1000,,1000,,false,,2554,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=4; server.mismatchedBytes=78758; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbDone,8,5242880,5242880,131088,1000,,1000,,false,,2905,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=112785; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,9,5242880,5242880,65544,1000,,1000,,false,,2381,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=67579; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,10,5242880,5242880,131088,1000,,1000,,false,,2194,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=118980; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,11,5242880,5242880,65544,1000,,1000,,false,,2311,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=2; server.mismatchedBytes=63399; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,12,5242880,5242880,65544,1000,,1000,,false,,2329,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=2; server.mismatchedBytes=63399; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,13,5242880,5242880,65544,1000,,1000,,false,,2077,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=128611; server.heapUsedMiB=22
+E8,upload-in15MiB-srvCbDone,14,5242880,5242880,0,1000,,1000,,false,,2277,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=4; server.mismatchedBytes=170784; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbDone,15,5242880,5242880,65544,1000,,1000,,false,,2624,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=72785; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbDone,16,5242880,5242880,65544,1000,,1000,,false,,3091,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=2; server.mismatchedBytes=63399; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbDone,17,5242880,5242880,65544,1000,,1000,,false,,2982,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=3; server.mismatchedBytes=128799; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,18,5242880,5242880,0,1000,,1000,,false,,2249,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=104896; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,19,5242880,5242880,65544,1000,,1000,,false,,2684,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=81373; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbDone,20,5242880,5242880,131088,1000,,1000,,false,,2725,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=88870; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbNever,1,5242880,5242880,131088,1000,,1000,,false,,2908,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=2; server.mismatchedBytes=73852; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,2,5242880,5242880,65544,1000,,1000,,false,,2881,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=2; server.mismatchedBytes=63399; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbNever,3,5242880,5242880,65544,1000,,1000,,false,,1901,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=4; server.mismatchedBytes=78660; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,4,5242880,5242880,65544,1000,,1000,,false,,1720,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=2; server.mismatchedBytes=63934; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbNever,5,5242880,5242880,65544,1000,,1000,,false,,2627,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=3; server.mismatchedBytes=121383; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,6,5242880,5242880,65544,1000,,1000,,false,,2790,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=93233; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,7,5242880,5242880,65544,1000,,1000,,false,,2391,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=97394; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,8,5242880,5242880,65544,1000,,1000,,false,,2452,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=4; server.mismatchedBytes=78787; server.heapUsedMiB=19
+E8,upload-in15MiB-srvCbNever,9,5242880,5242880,65544,1000,,1000,,false,,2475,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=102443; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,10,5242880,5242880,65544,1000,,1000,,false,,2110,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=97498; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,11,5242880,5242880,65544,1000,,1000,,false,,2905,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=5; server.mismatchedBytes=180783; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,12,5242880,5242880,65544,1000,,1000,,false,,2111,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=4; server.mismatchedBytes=78787; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,13,5242880,5242880,65544,1000,,1000,,false,,1946,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=115911; server.heapUsedMiB=23
+E8,upload-in15MiB-srvCbNever,14,5242880,5242880,65544,1000,,1000,,false,,2213,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=3; server.mismatchedBytes=66504; server.heapUsedMiB=21
+E8,upload-in15MiB-srvCbNever,15,5242880,5242880,131088,1000,,1000,,false,,2536,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=4; server.mismatchedBytes=161869; server.heapUsedMiB=22
+E8,upload-in15MiB-srvCbNever,16,5242880,5242880,65544,1000,,1000,,false,,2599,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=128612; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,17,5242880,5242880,65544,1000,,1000,,false,,2982,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=86597; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,18,5242880,5242880,65544,1000,,1000,,false,,2539,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=3; server.mismatchedBytes=128935; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,19,5242880,5242880,65544,1000,,1000,,false,,2741,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=2; server.mismatchedBytes=63399; server.heapUsedMiB=20
+E8,upload-in15MiB-srvCbNever,20,5242880,5242880,65544,1000,,1000,,false,,2317,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=4; server.mismatchedBytes=78787; server.heapUsedMiB=22
+E8,upload-in64KiB-srvCbDone,1,5242880,5242880,-1,1000,,1000,,false,,2747,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,2,5242880,5242880,-1,1000,,1000,,false,,2535,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,3,5242880,5242880,-1,1000,,1000,,false,,2630,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,4,5242880,5242880,-1,1000,,1000,,false,,2570,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,5,5242880,5242880,-1,1000,,1000,,false,,2193,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,6,5242880,5242880,-1,1000,,1000,,false,,2145,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,7,5242880,5242880,-1,1000,,1000,,false,,2816,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,8,5242880,5242880,-1,1000,,1000,,false,,2362,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,9,5242880,5242880,-1,1000,,1000,,false,,2080,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,10,5242880,5242880,-1,1000,,1000,,false,,2366,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,11,5242880,5242880,-1,1000,,1000,,false,,2366,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,12,5242880,5242880,-1,1000,,1000,,false,,2691,true,0,,,,,205,no RST; pings on client leg=2,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,13,5242880,5242880,-1,1000,,1000,,false,,2561,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,14,5242880,5242880,-1,1000,,1000,,false,,2484,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,15,5242880,5242880,-1,1000,,1000,,false,,2454,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,16,5242880,5242880,-1,1000,,1000,,false,,2435,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=19
+E8,upload-in64KiB-srvCbDone,17,5242880,5242880,-1,1000,,1000,,false,,2176,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,18,5242880,5242880,-1,1000,,1000,,false,,2019,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbDone,19,5242880,5242880,-1,1000,,1000,,false,,2337,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=22
+E8,upload-in64KiB-srvCbDone,20,5242880,5242880,-1,1000,,1000,,false,,2101,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-in64KiB-srvCbNever,1,5242880,5242880,-1,1000,,1000,,false,,2971,true,0,,,,,205,no RST; pings on client leg=2,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,2,5242880,5242880,-1,1000,,1000,,false,,2702,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,3,5242880,5242880,-1,1000,,1000,,false,,2832,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=19
+E8,upload-in64KiB-srvCbNever,4,5242880,5242880,-1,1000,,1000,,false,,2964,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,5,5242880,5242880,-1,1000,,1000,,false,,2340,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,6,5242880,5242880,-1,1000,,1000,,false,,1865,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,7,5242880,5242880,-1,1000,,1000,,false,,2031,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,8,5242880,5242880,-1,1000,,1000,,false,,2368,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,9,5242880,5242880,-1,1000,,1000,,false,,2266,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,10,5242880,5242880,-1,1000,,1000,,false,,2484,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,11,5242880,5242880,-1,1000,,1000,,false,,2627,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=19
+E8,upload-in64KiB-srvCbNever,12,5242880,5242880,-1,1000,,1000,,false,,2843,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,13,5242880,5242880,-1,1000,,1000,,false,,2471,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,14,5242880,5242880,-1,1000,,1000,,false,,2392,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,15,5242880,5242880,-1,1000,,1000,,false,,2388,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,16,5242880,5242880,-1,1000,,1000,,false,,2110,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,17,5242880,5242880,-1,1000,,1000,,false,,2237,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,18,5242880,5242880,-1,1000,,1000,,false,,2448,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,19,5242880,5242880,-1,1000,,1000,,false,,2741,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in64KiB-srvCbNever,20,5242880,5242880,-1,1000,,1000,,false,,1960,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-in65544-srvCbDone,1,5242880,5242880,4,1000,,1000,,false,,2984,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5041609; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,2,5242880,5242880,4,1000,,1000,,false,,2516,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5063037; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,3,5242880,5242880,4,1000,,1000,,false,,3091,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5104813; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,4,5242880,5242880,4,1000,,1000,,false,,2727,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=4622438; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,5,5242880,5242880,4,1000,,1000,,false,,2630,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=5043517; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,6,5242880,5242880,4,1000,,1000,,false,,2433,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5028067; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,7,5242880,5242880,4,1000,,1000,,false,,2692,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=4513381; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,8,5242880,5242880,4,1000,,1000,,false,,2257,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=5026872; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,9,5242880,5242880,4,1000,,1000,,false,,2301,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=3697433; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,10,5242880,5242880,4,1000,,1000,,false,,2436,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5042127; server.heapUsedMiB=24
+E8,upload-in65544-srvCbDone,11,5242880,5242880,4,1000,,1000,,false,,2336,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5042194; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,12,5242880,5242880,4,1000,,1000,,false,,2177,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=4649104; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,13,5242880,5242880,4,1000,,1000,,false,,2487,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5032758; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,14,5242880,5242880,4,1000,,1000,,false,,2261,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5033821; server.heapUsedMiB=23
+E8,upload-in65544-srvCbDone,15,5242880,5242880,4,1000,,1000,,false,,2766,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=4649811; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,16,5242880,5242880,4,1000,,1000,,false,,3008,false,0,,,,,205,no RST; pings on client leg=2,server.corruptMessages=79; server.mismatchedBytes=5040915; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,17,5242880,5242880,4,1000,,1000,,false,,2862,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5025204; server.heapUsedMiB=23
+E8,upload-in65544-srvCbDone,18,5242880,5242880,4,1000,,1000,,false,,2718,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=5026911; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,19,5242880,5242880,4,1000,,1000,,false,,2429,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5033932; server.heapUsedMiB=22
+E8,upload-in65544-srvCbDone,20,5242880,5242880,4,1000,,1000,,false,,1171,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5086440; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,1,5242880,5242880,4,1000,,1000,,false,,2933,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5103190; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,2,5242880,5242880,4,1000,,1000,,false,,2492,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=5041289; server.heapUsedMiB=23
+E8,upload-in65544-srvCbNever,3,5242880,5242880,4,1000,,1000,,false,,3109,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=2373394; server.heapUsedMiB=24
+E8,upload-in65544-srvCbNever,4,5242880,5242880,4,1000,,1000,,false,,2390,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=688802; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,5,5242880,5242880,4,1000,,1000,,false,,2649,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=5105899; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,6,5242880,5242880,4,1000,,1000,,false,,2216,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5025813; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,7,5242880,5242880,4,1000,,1000,,false,,2532,false,0,,,,,205,no RST; pings on client leg=2,server.corruptMessages=79; server.mismatchedBytes=3584413; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,8,5242880,5242880,4,1000,,1000,,false,,2704,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5105618; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,9,5242880,5242880,4,1000,,1000,,false,,2356,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=4628816; server.heapUsedMiB=25
+E8,upload-in65544-srvCbNever,10,5242880,5242880,4,1000,,1000,,false,,2315,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5104018; server.heapUsedMiB=24
+E8,upload-in65544-srvCbNever,11,5242880,5242880,4,1000,,1000,,false,,2535,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=5010118; server.heapUsedMiB=23
+E8,upload-in65544-srvCbNever,12,5242880,5242880,4,1000,,1000,,false,,2379,false,0,,,,,205,no RST; pings on client leg=2,server.corruptMessages=79; server.mismatchedBytes=4650701; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,13,5242880,5242880,4,1000,,1000,,false,,2448,false,0,,,,,205,no RST; pings on client leg=2,server.corruptMessages=79; server.mismatchedBytes=5041459; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,14,5242880,5242880,4,1000,,1000,,false,,2889,false,0,,,,,205,no RST; pings on client leg=2,server.corruptMessages=79; server.mismatchedBytes=3697684; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,15,5242880,5242880,4,1000,,1000,,false,,2982,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5104394; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,16,5242880,5242880,4,1000,,1000,,false,,2684,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5025283; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,17,5242880,5242880,4,1000,,1000,,false,,2686,false,0,,,,,205,no RST; pings on client leg=1,server.corruptMessages=79; server.mismatchedBytes=5103191; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,18,5242880,5242880,4,1000,,1000,,false,,2447,false,0,,,,,205,no RST; pings on client leg=2,server.corruptMessages=79; server.mismatchedBytes=5042131; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,19,5242880,5242880,4,1000,,1000,,false,,2510,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5025464; server.heapUsedMiB=22
+E8,upload-in65544-srvCbNever,20,5242880,5242880,4,1000,,1000,,false,,1316,false,0,,,,,205,no RST; pings on client leg=0,server.corruptMessages=79; server.mismatchedBytes=5025154; server.heapUsedMiB=22
+E8,upload-inDefault-srvCbDone,1,5242880,5242880,-1,1000,,1000,,false,,2973,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,2,5242880,5242880,-1,1000,,1000,,false,,3273,true,0,,,,,205,no RST; pings on client leg=2,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,3,5242880,5242880,-1,1000,,1000,,false,,3279,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbDone,4,5242880,5242880,-1,1000,,1000,,false,,2799,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,5,5242880,5242880,-1,1000,,1000,,false,,2661,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=22
+E8,upload-inDefault-srvCbDone,6,5242880,5242880,-1,1000,,1000,,false,,2066,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,7,5242880,5242880,-1,1000,,1000,,false,,2581,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbDone,8,5242880,5242880,-1,1000,,1000,,false,,2380,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,9,5242880,5242880,-1,1000,,1000,,false,,2521,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,10,5242880,5242880,-1,1000,,1000,,false,,2708,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbDone,11,5242880,5242880,-1,1000,,1000,,false,,2848,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,12,5242880,5242880,-1,1000,,1000,,false,,3189,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,13,5242880,5242880,-1,1000,,1000,,false,,2630,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbDone,14,5242880,5242880,-1,1000,,1000,,false,,2724,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,15,5242880,5242880,-1,1000,,1000,,false,,2462,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbDone,16,5242880,5242880,-1,1000,,1000,,false,,2451,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,17,5242880,5242880,-1,1000,,1000,,false,,2318,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,18,5242880,5242880,-1,1000,,1000,,false,,2336,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,19,5242880,5242880,-1,1000,,1000,,false,,2480,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbDone,20,5242880,5242880,-1,1000,,1000,,false,,2229,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,1,5242880,5242880,-1,1000,,1000,,false,,3104,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbNever,2,5242880,5242880,-1,1000,,1000,,false,,2574,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,3,5242880,5242880,-1,1000,,1000,,false,,3303,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,4,5242880,5242880,-1,1000,,1000,,false,,2645,true,0,,,,,205,no RST; pings on client leg=2,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbNever,5,5242880,5242880,-1,1000,,1000,,false,,1912,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,6,5242880,5242880,-1,1000,,1000,,false,,2424,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,7,5242880,5242880,-1,1000,,1000,,false,,2449,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,8,5242880,5242880,-1,1000,,1000,,false,,2749,true,0,,,,,205,no RST; pings on client leg=2,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbNever,9,5242880,5242880,-1,1000,,1000,,false,,2537,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=22
+E8,upload-inDefault-srvCbNever,10,5242880,5242880,-1,1000,,1000,,false,,2760,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=22
+E8,upload-inDefault-srvCbNever,11,5242880,5242880,-1,1000,,1000,,false,,2816,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,12,5242880,5242880,-1,1000,,1000,,false,,2929,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbNever,13,5242880,5242880,-1,1000,,1000,,false,,2359,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=21
+E8,upload-inDefault-srvCbNever,14,5242880,5242880,-1,1000,,1000,,false,,2179,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=22
+E8,upload-inDefault-srvCbNever,15,5242880,5242880,-1,1000,,1000,,false,,2230,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,16,5242880,5242880,-1,1000,,1000,,false,,2433,true,0,,,,,205,no RST; pings on client leg=1,server.mismatchedBytes=0; server.heapUsedMiB=20
+E8,upload-inDefault-srvCbNever,17,5242880,5242880,-1,1000,,1000,,false,,2588,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=22
+E8,upload-inDefault-srvCbNever,18,5242880,5242880,-1,1000,,1000,,false,,2615,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=22
+E8,upload-inDefault-srvCbNever,19,5242880,5242880,-1,1000,,1000,,false,,2558,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=22
+E8,upload-inDefault-srvCbNever,20,5242880,5242880,-1,1000,,1000,,false,,2623,true,0,,,,,205,no RST; pings on client leg=0,server.mismatchedBytes=0; server.heapUsedMiB=20

@@ -1,0 +1,8 @@
+date: 2026-09-30T06:44:58.875627142Z[Etc/UTC]
+os: Linux 6.18.44-fc-v50
+java: Ubuntu 17.0.20.1+1-1-24.04-Ubuntu
+jetty: 12.0.16 (pinned in pom.xml)
+nginx: nginx version: nginx/1.24.0 (Ubuntu)
+capture: tcpdump version 4.99.4
+tc: qdisc noqueue 0: root refcnt 2
+args: {exp=E6, runs=20, parallel=8}

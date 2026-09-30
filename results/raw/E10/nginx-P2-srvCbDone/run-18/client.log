@@ -1,0 +1,40 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=42305 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+1790748990.009521 4012500426830 [main] client args {url=ws://127.0.0.1:29280/stream, dir=/home/user/test/results/raw/E10/nginx-P2-srvCbDone/run-18, timeout-ms=140971, bytes=1048576, sink-rate=50000, heartbeat-interval-ms=20000, complete-callback=false, p1-fraction=0.1, heartbeat=forced, ping-phase=P2}
+1790748990.756356 4013247099168 [WebSocket@1918627686-17] onWebSocketOpen local=/127.0.0.1:58944 remote=/127.0.0.1:29280
+1790748990.780958 4013271698712 [WebSocket@1918627686-17] delivered msg=1 bytes=512 firstGap=-1
+1790748991.235122 4013725863109 [heartbeat] PING #1 send (forced P2) delivered=22016
+1790748991.241243 4013731986413 [heartbeat] PING #1 sent
+1790748993.062093 4015552834223 [WebSocket@1918627686-17] onWebSocketError delivered=113664 java.nio.channels.ClosedChannelException
+	at org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onEof(WebSocketSessionState.java:168)
+	at org.eclipse.jetty.websocket.core.WebSocketCoreSession.onEof(WebSocketCoreSession.java:229)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.fillAndParse(WebSocketConnection.java:474)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.onOpen(WebSocketConnection.java:533)
+	at org.eclipse.jetty.io.AbstractEndPoint.upgrade(AbstractEndPoint.java:435)
+	at org.eclipse.jetty.websocket.core.client.CoreClientUpgradeRequest.upgrade(CoreClientUpgradeRequest.java:503)
+	at org.eclipse.jetty.websocket.client.internal.JettyClientUpgradeRequest.upgrade(JettyClientUpgradeRequest.java:64)
+	at org.eclipse.jetty.websocket.core.client.internal.HttpUpgraderOverHTTP.upgrade(HttpUpgraderOverHTTP.java:94)
+	at org.eclipse.jetty.client.UpgradeProtocolHandler$1.onComplete(UpgradeProtocolHandler.java:82)
+	at org.eclipse.jetty.client.transport.ResponseListeners.notifyComplete(ResponseListeners.java:352)
+	at org.eclipse.jetty.client.transport.ResponseListeners.notifyComplete(ResponseListeners.java:344)
+	at org.eclipse.jetty.client.transport.HttpReceiver.terminateResponse(HttpReceiver.java:439)
+	at org.eclipse.jetty.client.transport.HttpReceiver.terminateResponse(HttpReceiver.java:421)
+	at org.eclipse.jetty.client.transport.HttpReceiver.lambda$responseSuccess$4(HttpReceiver.java:381)
+	at org.eclipse.jetty.util.thread.SerializedInvoker$Link.run(SerializedInvoker.java:268)
+	at org.eclipse.jetty.util.thread.SerializedInvoker.run(SerializedInvoker.java:168)
+	at org.eclipse.jetty.client.transport.HttpReceiver.responseHeaders(HttpReceiver.java:246)
+	at org.eclipse.jetty.client.transport.internal.HttpReceiverOverHTTP.parse(HttpReceiverOverHTTP.java:331)
+	at org.eclipse.jetty.client.transport.internal.HttpReceiverOverHTTP.parseAndFill(HttpReceiverOverHTTP.java:248)
+	at org.eclipse.jetty.client.transport.internal.HttpReceiverOverHTTP.receive(HttpReceiverOverHTTP.java:77)
+	at org.eclipse.jetty.client.transport.internal.HttpChannelOverHTTP.receive(HttpChannelOverHTTP.java:97)
+	at org.eclipse.jetty.client.transport.internal.HttpConnectionOverHTTP.onFillable(HttpConnectionOverHTTP.java:250)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+1790748993.064032 4015554771696 [WebSocket@1918627686-17] onWebSocketClose code=1006 reason=Session Closed delivered=113664/1048580 firstGap=-1
+[main] INFO org.eclipse.jetty.websocket.client.WebSocketClient - Shutdown WebSocketClient@4950ca0d[coreClient=oejwcc.WebSocketCoreClient@35047d03{STARTED},openSessions.size=0]
+1790748993.576899 4016067640112 [main] client exit 0

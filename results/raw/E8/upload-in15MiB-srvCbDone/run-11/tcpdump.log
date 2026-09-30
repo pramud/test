@@ -1,0 +1,4 @@
+tcpdump: listening on lo, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+278 packets captured
+574 packets received by filter
+16 packets dropped by kernel

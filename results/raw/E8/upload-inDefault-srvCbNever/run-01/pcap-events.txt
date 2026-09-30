@@ -1,0 +1,2 @@
+  2.192919 client<->server client             FIN (+23250 payload bytes)
+  2.251899 client<->server server             FIN (+0 payload bytes)

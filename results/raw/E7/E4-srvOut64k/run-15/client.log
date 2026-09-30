@@ -1,0 +1,33 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=42305 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+1790747764.212312 2786703145906 [main] client args {url=ws://127.0.0.1:28700/stream, dir=/home/user/test/results/raw/E7/E4-srvOut64k/run-15, timeout-ms=140971, bytes=1048576, sink-rate=50000, heartbeat-interval-ms=20000, complete-callback=false, p1-fraction=0.1, heartbeat=on}
+1790747765.903065 2788393852745 [WebSocket@1918627686-16] onWebSocketOpen local=/127.0.0.1:39660 remote=/127.0.0.1:28700
+1790747765.955942 2788446682497 [WebSocket@1918627686-13] delivered msg=1 bytes=512 firstGap=-1
+1790747768.585570 2791076309937 [WebSocket@1918627686-13] delivered msg=256 bytes=131072 firstGap=-1
+1790747771.206735 2793697482654 [WebSocket@1918627686-13] delivered msg=512 bytes=262144 firstGap=-1
+1790747773.827676 2796318427375 [WebSocket@1918627686-13] delivered msg=768 bytes=393216 firstGap=-1
+1790747776.449083 2798939830418 [WebSocket@1918627686-13] delivered msg=1024 bytes=524288 firstGap=-1
+1790747779.070502 2801561260561 [WebSocket@1918627686-13] delivered msg=1280 bytes=655360 firstGap=-1
+1790747781.692022 2804182772804 [WebSocket@1918627686-13] delivered msg=1536 bytes=786432 firstGap=-1
+1790747784.318822 2806809573807 [WebSocket@1918627686-13] delivered msg=1792 bytes=917504 firstGap=-1
+1790747785.919445 2808410184932 [heartbeat] PING #1 send (periodic) delivered=996864
+1790747785.924157 2808414896510 [heartbeat] PING #1 sent
+1790747786.932471 2809423211727 [WebSocket@1918627686-13] onWebSocketError delivered=1047552 java.nio.channels.ClosedChannelException
+	at org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onEof(WebSocketSessionState.java:168)
+	at org.eclipse.jetty.websocket.core.WebSocketCoreSession.onEof(WebSocketCoreSession.java:229)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.fillAndParse(WebSocketConnection.java:474)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.onFillable(WebSocketConnection.java:332)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:480)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:443)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce(AdaptiveExecutionStrategy.java:195)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+1790747786.936077 2809426817706 [WebSocket@1918627686-13] onWebSocketClose code=1006 reason=Session Closed delivered=1047552/1048580 firstGap=-1
+[main] INFO org.eclipse.jetty.websocket.client.WebSocketClient - Shutdown WebSocketClient@3b2b0c13[coreClient=oejwcc.WebSocketCoreClient@49b0b76{STARTED},openSessions.size=0]
+1790747787.537527 2810028269568 [main] client exit 0

@@ -1,0 +1,18 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=42305 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+1790748750.461992 3772952800991 [main] client args {url=ws://127.0.0.1:29187/stream, dir=/home/user/test/results/raw/E10/nginx-linger-P2/run-13, timeout-ms=140971, bytes=1048576, sink-rate=50000, heartbeat-interval-ms=20000, complete-callback=false, p1-fraction=0.1, heartbeat=forced, ping-phase=P2}
+1790748751.280126 3773770867227 [WebSocket@1918627686-17] onWebSocketOpen local=/127.0.0.1:48510 remote=/127.0.0.1:29187
+1790748751.294536 3773785275007 [WebSocket@1918627686-17] delivered msg=1 bytes=512 firstGap=-1
+1790748751.731127 3774221867321 [heartbeat] PING #1 send (forced P2) delivered=20992
+1790748751.739818 3774230560302 [heartbeat] PING #1 sent
+1790748753.907737 3776398478180 [WebSocket@1918627686-17] delivered msg=256 bytes=131072 firstGap=-1
+1790748756.532640 3779023392834 [WebSocket@1918627686-17] delivered msg=512 bytes=262144 firstGap=-1
+1790748759.150519 3781641263429 [WebSocket@1918627686-17] delivered msg=768 bytes=393216 firstGap=-1
+1790748761.772510 3784263277376 [WebSocket@1918627686-17] delivered msg=1024 bytes=524288 firstGap=-1
+1790748764.393946 3786884699901 [WebSocket@1918627686-17] delivered msg=1280 bytes=655360 firstGap=-1
+1790748767.014841 3789505591426 [WebSocket@1918627686-17] delivered msg=1536 bytes=786432 firstGap=-1
+1790748769.636019 3792126765120 [WebSocket@1918627686-17] delivered msg=1792 bytes=917504 firstGap=-1
+1790748772.257536 3794748308044 [WebSocket@1918627686-17] delivered msg=2048 bytes=1048576 firstGap=-1
+1790748772.267793 3794758541403 [WebSocket@1918627686-17] delivered msg=2049 bytes=1048580 firstGap=-1
+1790748772.271326 3794762065879 [WebSocket@1918627686-17] onWebSocketClose code=1000 reason=Normal closure delivered=1048580/1048580 firstGap=-1
+[main] INFO org.eclipse.jetty.websocket.client.WebSocketClient - Shutdown WebSocketClient@5d543cf2[coreClient=oejwcc.WebSocketCoreClient@35047d03{STARTED},openSessions.size=0]
+1790748772.784851 3795275592767 [main] client exit 0

@@ -1,0 +1,49 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=42305 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+1790748870.839839 3893330635371 [main] client args {url=ws://127.0.0.1:29234/stream, dir=/home/user/test/results/raw/E10/direct-hbOn-4MiB/run-15, timeout-ms=203886, bytes=4194304, sink-rate=50000, heartbeat-interval-ms=20000, complete-callback=false, p1-fraction=0.1, heartbeat=on}
+1790748872.085790 3894576531952 [WebSocket@1918627686-17] onWebSocketOpen local=/127.0.0.1:38722 remote=/127.0.0.1:29234
+1790748872.102716 3894593456650 [WebSocket@1918627686-17] delivered msg=1 bytes=512 firstGap=-1
+1790748874.716125 3897206866345 [WebSocket@1918627686-17] delivered msg=256 bytes=131072 firstGap=-1
+1790748877.339848 3899830593728 [WebSocket@1918627686-17] delivered msg=512 bytes=262144 firstGap=-1
+1790748879.958698 3902449450483 [WebSocket@1918627686-17] delivered msg=768 bytes=393216 firstGap=-1
+1790748882.580656 3905071408986 [WebSocket@1918627686-17] delivered msg=1024 bytes=524288 firstGap=-1
+1790748885.201695 3907692444198 [WebSocket@1918627686-17] delivered msg=1280 bytes=655360 firstGap=-1
+1790748887.822592 3910313342782 [WebSocket@1918627686-17] delivered msg=1536 bytes=786432 firstGap=-1
+1790748890.444248 3912935020160 [WebSocket@1918627686-17] delivered msg=1792 bytes=917504 firstGap=-1
+1790748892.100701 3914591440131 [heartbeat] PING #1 send (periodic) delivered=999424
+1790748892.103821 3914594561901 [heartbeat] PING #1 sent
+1790748893.065998 3915556750583 [WebSocket@1918627686-17] delivered msg=2048 bytes=1048576 firstGap=-1
+1790748895.687627 3918178381189 [WebSocket@1918627686-17] delivered msg=2304 bytes=1179648 firstGap=-1
+1790748898.310389 3920801140794 [WebSocket@1918627686-17] delivered msg=2560 bytes=1310720 firstGap=-1
+1790748900.932019 3923422774943 [WebSocket@1918627686-17] delivered msg=2816 bytes=1441792 firstGap=-1
+1790748903.551671 3926042428103 [WebSocket@1918627686-17] delivered msg=3072 bytes=1572864 firstGap=-1
+1790748906.176183 3928667117590 [WebSocket@1918627686-17] delivered msg=3328 bytes=1703936 firstGap=-1
+1790748908.795164 3931285920241 [WebSocket@1918627686-17] delivered msg=3584 bytes=1835008 firstGap=-1
+1790748911.416047 3933906803239 [WebSocket@1918627686-17] delivered msg=3840 bytes=1966080 firstGap=-1
+1790748912.108079 3934598818458 [heartbeat] PING #2 send (periodic) delivered=1999872
+1790748912.112131 3934602872514 [heartbeat] PING #2 sent
+1790748914.038861 3936529615816 [WebSocket@1918627686-17] delivered msg=4096 bytes=2097152 firstGap=-1
+1790748916.659317 3939150070822 [WebSocket@1918627686-17] delivered msg=4352 bytes=2228224 firstGap=-1
+1790748919.279783 3941770542947 [WebSocket@1918627686-17] delivered msg=4608 bytes=2359296 firstGap=-1
+1790748921.902176 3944392943454 [WebSocket@1918627686-17] delivered msg=4864 bytes=2490368 firstGap=-1
+1790748924.522745 3947013499629 [WebSocket@1918627686-17] delivered msg=5120 bytes=2621440 firstGap=-1
+1790748927.144489 3949635243227 [WebSocket@1918627686-17] delivered msg=5376 bytes=2752512 firstGap=-1
+1790748929.766882 3952257635605 [WebSocket@1918627686-17] delivered msg=5632 bytes=2883584 firstGap=-1
+1790748932.119307 3954610045177 [heartbeat] PING #3 send (periodic) delivered=3000320
+1790748932.120934 3954611673585 [heartbeat] PING #3 sent
+1790748932.387408 3954878163335 [WebSocket@1918627686-17] delivered msg=5888 bytes=3014656 firstGap=-1
+1790748935.008372 3957499126509 [WebSocket@1918627686-17] delivered msg=6144 bytes=3145728 firstGap=-1
+1790748937.630702 3960121459400 [WebSocket@1918627686-17] delivered msg=6400 bytes=3276800 firstGap=-1
+1790748940.252420 3962743173974 [WebSocket@1918627686-17] delivered msg=6656 bytes=3407872 firstGap=-1
+1790748942.874392 3965365146699 [WebSocket@1918627686-17] delivered msg=6912 bytes=3538944 firstGap=-1
+1790748945.495040 3967985820285 [WebSocket@1918627686-17] delivered msg=7168 bytes=3670016 firstGap=-1
+1790748948.115781 3970606535558 [WebSocket@1918627686-17] delivered msg=7424 bytes=3801088 firstGap=-1
+1790748950.737468 3973228223125 [WebSocket@1918627686-17] delivered msg=7680 bytes=3932160 firstGap=-1
+1790748952.123073 3974613810013 [heartbeat] PING #4 send (periodic) delivered=4000768
+1790748952.134120 3974624861081 [heartbeat] PING #4 sent
+1790748952.214103 3974704845212 [WebSocket@1918627686-17] PONG received len=3
+1790748953.358559 3975849305905 [WebSocket@1918627686-17] delivered msg=7936 bytes=4063232 firstGap=-1
+1790748955.980148 3978470905993 [WebSocket@1918627686-17] delivered msg=8192 bytes=4194304 firstGap=-1
+1790748955.990913 3978481659904 [WebSocket@1918627686-17] delivered msg=8193 bytes=4194308 firstGap=-1
+1790748955.999016 3978489755197 [WebSocket@1918627686-17] onWebSocketClose code=1000 reason=Normal closure delivered=4194308/4194308 firstGap=-1
+[main] INFO org.eclipse.jetty.websocket.client.WebSocketClient - Shutdown WebSocketClient@c56eba83[coreClient=oejwcc.WebSocketCoreClient@49b0b76{STARTED},openSessions.size=0]
+1790748956.554079 3979044820114 [main] client exit 0

@@ -1,0 +1,3 @@
+server: /usr/lib/jvm/java-17-openjdk-amd64/bin/java -jar /home/user/test/server/target/server.jar --port=29141 --dir=/home/user/test/results/raw/E10/nginx-P2-srvFragmented/run-10 --input-buffer=15m --output-buffer=15m --last-per-chunk=true --complete-callback=false --last-per-chunk=false
+client: /usr/lib/jvm/java-17-openjdk-amd64/bin/java -jar /home/user/test/client/target/client.jar --url=ws://127.0.0.1:29142/stream --dir=/home/user/test/results/raw/E10/nginx-P2-srvFragmented/run-10 --timeout-ms=140971 --bytes=1048576 --sink-rate=50000 --heartbeat-interval-ms=20000 --complete-callback=false --p1-fraction=0.1 --heartbeat=forced --ping-phase=P2
+nginx: lingering=off port 29142

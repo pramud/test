@@ -1,0 +1,5 @@
+  0.649485 nginx<->server  server             Close(1000) frame
+  0.649549 nginx<->server  server             FIN (+0 payload bytes)
+  0.649721 nginx<->server  nginx(server-leg)  FIN (+0 payload bytes)
+  0.658211 client<->nginx  client             PING frame
+  0.658246 client<->nginx  nginx(client-leg)  RST

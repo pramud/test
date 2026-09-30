@@ -1,0 +1,2 @@
+server: /usr/lib/jvm/java-17-openjdk-amd64/bin/java -jar /home/user/test/server/target/server.jar --port=28866 --dir=/home/user/test/results/raw/E8/upload-inDefault-srvCbNever/run-09 --input-buffer=default --output-buffer=15m --complete-callback=false
+client: /usr/lib/jvm/java-17-openjdk-amd64/bin/java -jar /home/user/test/client/target/client.jar --url=ws://127.0.0.1:28866/upload --dir=/home/user/test/results/raw/E8/upload-inDefault-srvCbNever/run-09 --timeout-ms=60000 --mode=upload --bytes=5242880 --upload-message=65544 --timeout-ms=60000

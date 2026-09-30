@@ -1,0 +1,21 @@
+experiment,variant,run,bytesExpected,bytesDelivered,firstGapOffset,clientCloseCode,clientException,serverCloseCode,serverError,rstSeen,rstSender,durationMs,complete,pingsSent,pingPhase,pingResults,serverSendTimeouts,serverCloseCallback,clientLegDownBytes,rstDetail,notes
+E2,direct-hbOn,1,1048580,1048580,-1,1000,,1000,,false,,23250,true,1,,ok@996864,0,succeeded,1069302,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,2,1048580,1048580,-1,1000,,1000,,false,,22764,true,1,,ok@998912,0,succeeded,1067778,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,3,1048580,1048580,-1,1000,,1000,,false,,22509,true,1,,ok@998912,0,succeeded,1152238,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,4,1048580,1048580,-1,1000,,1000,,false,,22742,true,1,,ok@997376,0,succeeded,1123566,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,5,1048580,1048580,-1,1000,,1000,,false,,23795,true,1,,ok@997888,0,succeeded,1153270,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,6,1048580,1048580,-1,1000,,1000,,false,,23333,true,1,,ok@995840,0,succeeded,1129194,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,7,1048580,1048580,-1,1000,,1000,,false,,22956,true,1,,ok@996864,0,succeeded,1125622,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,8,1048580,1048580,-1,1000,,1000,,false,,22862,true,1,,ok@996352,0,succeeded,1062142,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,9,1048580,1048580,-1,1000,,1000,,false,,22751,true,1,,ok@998912,0,succeeded,1099514,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,10,1048580,1048580,-1,1000,,1000,,false,,23191,true,1,,ok@997376,0,succeeded,1156850,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,11,1048580,1048580,-1,1000,,1000,,false,,22991,true,1,,ok@996864,0,succeeded,1071842,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,12,1048580,1048580,-1,1000,,1000,,false,,23451,true,1,,ok@999424,0,succeeded,1085670,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,13,1048580,1048580,-1,1000,,1000,,false,,23554,true,1,,ok@997376,0,succeeded,1151190,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,14,1048580,1048580,-1,1000,,1000,,false,,22933,true,1,,ok@997888,0,succeeded,1102054,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,15,1048580,1048580,-1,1000,,1000,,false,,23854,true,1,,ok@996864,0,succeeded,1062134,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,16,1048580,1048580,-1,1000,,1000,,false,,23313,true,1,,ok@998912,0,succeeded,1097974,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,17,1048580,1048580,-1,1000,,1000,,false,,21783,true,1,,ok@999424,0,succeeded,1146070,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,18,1048580,1048580,-1,1000,,1000,,false,,22230,true,1,,ok@999424,0,succeeded,1124574,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,19,1048580,1048580,-1,1000,,1000,,false,,22192,true,1,,ok@999424,0,succeeded,1138402,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20
+E2,direct-hbOn,20,1048580,1048580,-1,1000,,1000,,false,,22093,true,1,,ok@998912,0,succeeded,1064666,no RST; pings on client leg=1,server.sendFailures=0; server.heapUsedMiB=20

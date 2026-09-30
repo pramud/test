@@ -196,13 +196,19 @@ public final class Pcap
         boolean proxied = proxyPort > 0;
         // Only look at the WebSocket connections (the ones carrying the HTTP upgrade request); this drops the
         // runner's port-readiness probes.
+        // Packets before the first upgrade request are dropped too, in case a probe reused the same ephemeral port.
         Set<Integer> wsPorts = new LinkedHashSet<>();
+        long firstUpgradeUs = Long.MAX_VALUE;
         for (Packet p : pkts)
         {
             if (p.payload().length > 4 && new String(p.payload(), 0, 4, StandardCharsets.US_ASCII).equals("GET "))
+            {
                 wsPorts.add(p.sport());
+                firstUpgradeUs = Math.min(firstUpgradeUs, p.tsUs());
+            }
         }
-        pkts = pkts.stream().filter(p -> wsPorts.contains(p.sport()) || wsPorts.contains(p.dport())).toList();
+        long since = firstUpgradeUs;
+        pkts = pkts.stream().filter(p -> p.tsUs() >= since && (wsPorts.contains(p.sport()) || wsPorts.contains(p.dport()))).toList();
         if (pkts.isEmpty())
         {
             r.detail = "no WebSocket connection captured";

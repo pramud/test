@@ -97,6 +97,13 @@ public final class Experiments
                     v.add(download(exp, "direct-" + phase, false, "off", phase));
                     v.add(download(exp, "nginx-" + phase, true, "off", phase));
                 }
+                // With 1 MiB the server finishes writing within ~1-5 s (the rest sits in socket/nginx buffers), so a
+                // PING at 10% often lands after close(). P1early triggers at 0.5% to really be "before close".
+                for (boolean proxy : List.of(false, true))
+                {
+                    v.add(download(exp, (proxy ? "nginx" : "direct") + "-P1early", proxy, "off", "P1")
+                        .with("", List.of(), List.of("--p1-fraction=" + a.str("p1-early-fraction", "0.005"))));
+                }
             }
             case "E7" ->
             {

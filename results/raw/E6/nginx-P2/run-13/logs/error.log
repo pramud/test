@@ -1,0 +1,13 @@
+2026/09/30 06:49:02 [notice] 14079#14079: using the "epoll" event method
+2026/09/30 06:49:02 [notice] 14079#14079: nginx/1.24.0 (Ubuntu)
+2026/09/30 06:49:02 [notice] 14079#14079: OS: Linux 6.18.44-fc-v50
+2026/09/30 06:49:02 [notice] 14079#14079: getrlimit(RLIMIT_NOFILE): 20000:20000
+2026/09/30 06:49:02 [notice] 14079#14079: start worker processes
+2026/09/30 06:49:02 [notice] 14079#14079: start worker process 14080
+2026/09/30 06:49:02 [info] 14080#14080: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:35249
+2026/09/30 06:49:07 [notice] 14079#14079: signal 15 (SIGTERM) received from 14189, exiting
+2026/09/30 06:49:07 [notice] 14080#14080: exiting
+2026/09/30 06:49:07 [notice] 14080#14080: exit
+2026/09/30 06:49:07 [notice] 14079#14079: signal 17 (SIGCHLD) received from 14080
+2026/09/30 06:49:07 [notice] 14079#14079: worker process 14080 exited with code 0
+2026/09/30 06:49:07 [notice] 14079#14079: exit

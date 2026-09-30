@@ -1,0 +1,21 @@
+experiment,variant,run,bytesExpected,bytesDelivered,firstGapOffset,clientCloseCode,clientException,serverCloseCode,serverError,rstSeen,rstSender,durationMs,complete,pingsSent,pingPhase,pingResults,serverSendTimeouts,serverCloseCallback,clientLegDownBytes,rstDetail,notes
+E1,direct-hbOff,1,1048580,1048580,-1,1000,,1000,,false,,23677,true,0,,,0,succeeded,1076978,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,2,1048580,1048580,-1,1000,,1000,,false,,23762,true,0,,,0,succeeded,1062658,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=19
+E1,direct-hbOff,3,1048580,1048580,-1,1000,,1000,,false,,22967,true,0,,,0,succeeded,1130218,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,4,1048580,1048580,-1,1000,,1000,,false,,23232,true,0,,,0,succeeded,1088218,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=19
+E1,direct-hbOff,5,1048580,1048580,-1,1000,,1000,,false,,22628,true,0,,,0,succeeded,1068334,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=19
+E1,direct-hbOff,6,1048580,1048580,-1,1000,,1000,,false,,22426,true,0,,,0,succeeded,1152222,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,7,1048580,1048580,-1,1000,,1000,,false,,22597,true,0,,,0,succeeded,1096434,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=21
+E1,direct-hbOff,8,1048580,1048580,-1,1000,,1000,,false,,22985,true,0,,,0,succeeded,1064174,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=19
+E1,direct-hbOff,9,1048580,1048580,-1,1000,,1000,,false,,22691,true,0,,,0,succeeded,1097450,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,10,1048580,1048580,-1,1000,,1000,,false,,23037,true,0,,,0,succeeded,1221886,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,11,1048580,1048580,-1,1000,,1000,,false,,23511,true,0,,,0,succeeded,1062618,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=19
+E1,direct-hbOff,12,1048580,1048580,-1,1000,,1000,,false,,22884,true,0,,,0,succeeded,1064678,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=21
+E1,direct-hbOff,13,1048580,1048580,-1,1000,,1000,,false,,22906,true,0,,,0,succeeded,1066206,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,14,1048580,1048580,-1,1000,,1000,,false,,23306,true,0,,,0,succeeded,1060078,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,15,1048580,1048580,-1,1000,,1000,,false,,23284,true,0,,,0,succeeded,1071850,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,16,1048580,1048580,-1,1000,,1000,,false,,23215,true,0,,,0,succeeded,1068262,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=22
+E1,direct-hbOff,17,1048580,1048580,-1,1000,,1000,,false,,21769,true,0,,,0,succeeded,1082074,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,18,1048580,1048580,-1,1000,,1000,,false,,21765,true,0,,,0,succeeded,1092314,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,19,1048580,1048580,-1,1000,,1000,,false,,21876,true,0,,,0,succeeded,1201366,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20
+E1,direct-hbOff,20,1048580,1048580,-1,1000,,1000,,false,,22049,true,0,,,0,succeeded,1092310,no RST; pings on client leg=0,server.sendFailures=0; server.heapUsedMiB=20

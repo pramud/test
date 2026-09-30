@@ -1,0 +1,4 @@
+ 50.706307 client<->server server             Close(1000) frame
+ 50.706307 client<->server server             FIN (+5052 payload bytes)
+ 50.905382 client<->server client             Close frame (masked, from client side)
+ 50.905898 client<->server client             FIN (+0 payload bytes)

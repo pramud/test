@@ -1,0 +1,34 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=42305 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+1790746867.311939 1889802754146 [main] client args {url=ws://127.0.0.1:28191/stream, dir=/home/user/test/results/raw/E4/nginx-hbOn/run-06, timeout-ms=140971, bytes=1048576, sink-rate=50000, heartbeat-interval-ms=20000, complete-callback=false, p1-fraction=0.1, heartbeat=on}
+1790746870.461498 1892952240724 [WebSocket@1918627686-17] onWebSocketOpen local=/127.0.0.1:42616 remote=/127.0.0.1:28191
+1790746870.554518 1893045259107 [WebSocket@1918627686-14] delivered msg=1 bytes=512 firstGap=-1
+1790746873.273885 1895764625396 [WebSocket@1918627686-16] delivered msg=256 bytes=131072 firstGap=-1
+1790746875.800653 1898291425136 [WebSocket@1918627686-16] delivered msg=512 bytes=262144 firstGap=-1
+1790746878.418420 1900909163613 [WebSocket@1918627686-16] delivered msg=768 bytes=393216 firstGap=-1
+1790746881.040128 1903530878232 [WebSocket@1918627686-16] delivered msg=1024 bytes=524288 firstGap=-1
+1790746883.661448 1906152192906 [WebSocket@1918627686-16] delivered msg=1280 bytes=655360 firstGap=-1
+1790746886.282405 1908773155160 [WebSocket@1918627686-16] delivered msg=1536 bytes=786432 firstGap=-1
+1790746888.904569 1911395323614 [WebSocket@1918627686-16] delivered msg=1792 bytes=917504 firstGap=-1
+1790746890.484633 1912975372249 [heartbeat] PING #1 send (periodic) delivered=995328
+1790746890.487281 1912978020956 [heartbeat] PING #1 sent
+1790746890.659131 1913149871560 [WebSocket@1918627686-16] onWebSocketError delivered=1004544 java.nio.channels.ClosedChannelException
+	at org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onEof(WebSocketSessionState.java:168)
+	at org.eclipse.jetty.websocket.core.WebSocketCoreSession.onEof(WebSocketCoreSession.java:229)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.fillAndParse(WebSocketConnection.java:474)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.onFillable(WebSocketConnection.java:332)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:480)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:443)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+1790746890.660803 1913151542746 [WebSocket@1918627686-16] onWebSocketClose code=1006 reason=Session Closed delivered=1004544/1048580 firstGap=-1
+[main] INFO org.eclipse.jetty.websocket.client.WebSocketClient - Shutdown WebSocketClient@30adf019[coreClient=oejwcc.WebSocketCoreClient@49b0b76{STARTED},openSessions.size=0]
+1790746891.189010 1913679752089 [main] client exit 0
