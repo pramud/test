@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>wsrepro</groupId>
+    <artifactId>wsrepro-parent</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>server</artifactId>
+  <properties>
+    <main.class>wsrepro.StreamServer</main.class>
+  </properties>
+  <dependencies>
+    <dependency><groupId>wsrepro</groupId><artifactId>common</artifactId></dependency>
+    <dependency><groupId>org.eclipse.jetty.ee10.websocket</groupId><artifactId>jetty-ee10-websocket-jetty-server</artifactId></dependency>
+    <dependency><groupId>org.slf4j</groupId><artifactId>slf4j-simple</artifactId></dependency>
+  </dependencies>
+  <build><plugins><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId></plugin></plugins></build>
+</project>
